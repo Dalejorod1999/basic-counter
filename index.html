@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Basic Counter | learnFE</title>
-  <link rel="stylesheet" type="text/css" href="index.css" />
-</head>
-<body>
-  <div class="greeting">
-    <h2 id="developer"></h2>
-    <div id="list-container">
-      <ul id="languages"></ul>
-      <ul id="programmingLanguages"></ul>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Basic Counter | learnFE</title>
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <!-- Write between this comment lines -->
+    <div class="app" style="height: 100vh; display: flex; justify-content: center; align-items: center;">
+      <div class="container" style="text-align: center">
+        <h1 id="counter-number">basic-counter</h1>
+        <div class="btn-group" role="group" aria-label="...">
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-minus" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-repeat" aria-hidden="true"></span>
+          </button>
+          <button type="button" class="btn btn-default">
+            <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+          </button>
+        </div>
+      </div>
     </div>
-  </div>
-  <script src="index.js"></script>
-</body>
+    <!-- Here ends the space to write your code -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
 </html>

@@ -1,0 +1,32 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.greeting {
+  background: #333333;
+  color: #eeeeee;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.greeting #developer {
+  text-align: center;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+.greeting #list-container {
+  text-align: center;
+}
+
+#list-container ul {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 1rem;
+}

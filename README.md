@@ -1,5 +1,5 @@
 # basic-counter
-### A simple counter made with HTML, CSS and JavaScript
+### A simple counter made with HTML, Bootstrap and JavaScript
 
 Here we are building a counter with JavaScript, Bootstrap and HTML.
 

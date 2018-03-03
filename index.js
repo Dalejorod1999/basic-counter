@@ -7,17 +7,17 @@ const counter = document.getElementById('counter-number');
 let count = 0;
 
 function addToCounter() {
-  // Logica para sumar al contador
+  count += 1;
   counter.innerText = count;
 }
 
 function removeToCounter() {
-  // Logica para restar al contador
+  count -= 1;
   counter.innerText = count;
 }
 
 function resetCounter() {
-  // Logica para colocar en 0 el contador
+  count = 0;
   counter.innerText = count;
 }
 
